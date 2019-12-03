@@ -6,7 +6,7 @@ const authRoutes = require('./routes/auth');
 const stockRoutes = require('./routes/stock');
 const userStockRoutes =  require('./routes/userstock');
 
-const MONGODB_URI = 'mongodb+srv://gavi_mg:gavi_931@cluster0-uxnpr.mongodb.net/stockdb?retryWrites=true&w=majority';
+const MONGODB_URI = '';
 
 const app = express();
 
